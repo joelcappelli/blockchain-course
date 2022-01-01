@@ -1,29 +1,26 @@
-# Module 2 - Fintech finder (employee database and payment provider)
-You work at a startup that is building a new and disruptive platform called Fintech Finder. 
-Fintech Finder is an application that its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them. 
-As Fintech Finder’s lead developer, you have been tasked with integrating the Ethereum blockchain network into the application in order to enable your customers to instantly pay the fintech professionals whom they hire with cryptocurrency.
+# Module 2 - Joint Savings Account
+Background
+A fintech startup company has recently hired you. This company is disrupting the finance industry with its own cross-border, Ethereum-compatible blockchain that connects financial institutions. Currently, the team is building smart contracts to automate many of the institutions’ financial processes and features, such as hosting joint savings accounts.
 
-In this Challenge, you will complete the code that enables your customers to send cryptocurrency payments to fintech professionals. 
-To develop the code and test it out, you will assume the perspective of a Fintech Finder customer who is using the application to find a fintech professional and pay them for their work.
+To automate the creation of joint savings accounts, you’ll create a Solidity smart contract that accepts two user addresses. These addresses will be able to control a joint savings account. Your smart contract will use ether management functions to implement a financial institution’s requirements for providing the features of the joint savings account. These features will consist of the ability to deposit and withdraw funds from the account.
 
-Generate a new Ethereum account instance by using the mnemonic seed phrase provided by Ganache.
+What You're Creating
+The completed Solidity JointSavings smart contract.
 
-Fetch and display the account balance associated with your Ethereum account address.
+A folder named Execution_Results that contains at least eight images. These images should confirm that the deposit and withdrawal transactions, which are designed to test the JointSavings functionality in the JavaScript VM, worked as expected.
 
-Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
+## Example screenshot - creating the joint accounts
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/setup_accounts.png)
 
-Digitally sign a transaction that pays a Fintech Finder candidate, and send this transaction to the Ganache blockchain.
+## Example screenshots - depositing eth and confirming the account balance after each
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/deposit_1eth.png)
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/checkBalance_1eth.png)
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/deposit_10eth.png)
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/checkBalance_11eth.png)
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/deposit_5eth.png)
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/checkBalance_16eth.png)
 
-Review the transaction hash code associated with the validated blockchain transaction.
-
-Once you receive the transaction’s hash code, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. 
-To confirm that you have successfully created the transaction, you will save screenshots to the README.md file of your GitHub repository for this Challenge assignment.
-
-## Example screenshot of the Application using Streamlit
-![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module2/Assignment/Challenge%202%20Streamlit%20transaction%20Sent.png)
-
-## Example screenshot of the Ganache account summary
-![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module2/Assignment/Challenge%202%20Ganache%20Accounts%20view.png)
-
-## Example screenshot of the Ganache payment transaction evidence
-![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module2/Assignment/Challenge%202%20Ganache%20Tx%20view.png)
+## Example screenshots - withdrawing from join accounts and balances
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/withdraw_5eth_accountOne.png)
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/withdraw_accountOne_details.png)
+![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module3/Assignment/Execution_Results/withdraw_accountTwo_details.png)
