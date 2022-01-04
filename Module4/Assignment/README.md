@@ -47,8 +47,11 @@ Purchase transaction on Ganache
 ![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module4/Assignment/Screenshots/ganache_token_purchase_transactions.png)
 
 Account balance check
+
 ![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module4/Assignment/Screenshots/acct_balance%20_check.png)
+
 Metamask - activity and asset view of account after token purchase
+
 ![image](https://github.com/joelcappelli/blockchain-course/blob/main/Module4/Assignment/Screenshots/metamask_account_assets_after_purchase.png)
 
 3. After purchasing tokens with one or more test accounts, view the total supply of minted tokens and the amount of wei that has been raised in the crowdsale contract.
